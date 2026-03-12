@@ -7,12 +7,13 @@ class Program
         int a = 20;
         int b = 10;
         int d = 0;
+        StatisticsHelper(a, b, d);
         
     }
-
-    class StatisticsHelper(int a, int b)
-    {
-        
+    static void StatisticsHelper(int a, int b, int c)
+    { 
+       c=a*b;
+       Console.WriteLine(c);
     }
 }
 
