@@ -43,6 +43,13 @@ class Program
     static int CalculateMin(int[] values)
     {
         int min = 0;
+        foreach (int i in values)
+        {
+            if (values[i] < min) {
+                min = values[i];
+            }
+
+        }
         return min;
     }
 }
