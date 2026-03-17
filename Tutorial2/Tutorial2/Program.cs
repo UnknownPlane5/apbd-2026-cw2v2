@@ -18,6 +18,12 @@ class Program
     static int CalculateAverage(int[] values)
     {
         int avg = 0;
+        int a = 0;
+        foreach (int i in values)
+        {
+            a +=values[i];
+        }
+        avg = a / values.Length;
         return avg;
     }
     
