@@ -40,5 +40,10 @@ class Program
         return max;
     }
 
+    static int CalculateMin(int[] values)
+    {
+        int min = 0;
+        return min;
+    }
 }
 
