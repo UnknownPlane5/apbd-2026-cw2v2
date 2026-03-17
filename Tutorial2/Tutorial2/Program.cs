@@ -27,6 +27,18 @@ class Program
         avg = a / values.Length;
         return avg;
     }
-    
+    static int CalculateMax(int[] values)
+    {
+        int max = 0;
+        foreach (int i in values)
+        {
+            if (values[i] > max)
+            {
+                max = values[i];
+            }
+        }
+        return max;
+    }
+
 }
 
