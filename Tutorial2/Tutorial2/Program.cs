@@ -15,5 +15,11 @@ class Program
        c=a*b;
        Console.WriteLine(c);
     }
+    static int CalculateAverage(int[] values)
+    {
+        int avg = 0;
+        return avg;
+    }
+    
 }
 
